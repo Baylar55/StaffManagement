@@ -1,0 +1,11 @@
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\bin\Debug\net6.0\StaffManagement.Domain.deps.json
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\bin\Debug\net6.0\StaffManagement.Domain.dll
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\bin\Debug\net6.0\StaffManagement.Domain.pdb
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\obj\Debug\net6.0\StaffManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\obj\Debug\net6.0\StaffManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\obj\Debug\net6.0\StaffManagement.Domain.AssemblyInfo.cs
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\obj\Debug\net6.0\StaffManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\obj\Debug\net6.0\StaffManagement.Domain.dll
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\obj\Debug\net6.0\refint\StaffManagement.Domain.dll
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\obj\Debug\net6.0\StaffManagement.Domain.pdb
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Domain\obj\Debug\net6.0\ref\StaffManagement.Domain.dll

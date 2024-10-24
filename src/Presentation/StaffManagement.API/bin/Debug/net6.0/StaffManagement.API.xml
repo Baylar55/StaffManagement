@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StaffManagement.API</name>
+    </assembly>
+    <members>
+        <member name="T:StaffManagement.API.Controllers.CompaniesController">
+            <summary>
+            The API controller for managing companies.
+            </summary>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.CompaniesController.GetAll(StaffManagement.Application.RequestParameters.PagingParams)">
+            <summary>
+            Retrieves a paginated list of all companies.
+            </summary>
+            <param name="pagingParams">The pagination parameters, including page number and page size.</param>
+            <returns>A paginated list of companies</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.CompaniesController.GetById(System.Int32)">
+            <summary>
+            Retrieves a specific company by its ID.
+            </summary>
+            <param name="id">The unique ID of the company.</param>
+            <returns>The company details with a status code of 200 (OK) if found, or 404 (Not Found) if the company does not exist.</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.CompaniesController.Create(StaffManagement.Application.Features.Commands.Company.CreateCompany.CreateCompanyCommandRequest)">
+            <summary>
+            Creates a new company.
+            </summary>
+            <param name="request">The company data for creation.</param>
+            <returns>A success response with a status code of 201 (Created) if successful, or an error response if the creation fails.</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.CompaniesController.Update(System.Int32,StaffManagement.Application.Features.Commands.Company.UpdateCompany.UpdateCompanyCommandRequest)">
+            <summary>
+            Updates an existing company.
+            </summary>
+            <param name="id">The unique ID of the company to update.</param>
+            <param name="request">The updated company data.</param>
+            <returns>A success response with a status code of 204 (No Content) if the update is successful, 
+            or 400 (Bad Request) if the provided ID does not match the request ID, or 404 (Not Found) if the company does not exist.</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.CompaniesController.Delete(StaffManagement.Application.Features.Commands.Company.DeleteCompany.DeleteCompanyCommandRequest)">
+            <summary>
+            Deletes an existing company.
+            </summary>
+            <param name="request">The company deletion request, containing the company ID to be deleted.</param>
+            <returns>A success response with a status code of 204 (No Content) if the deletion is successful, or an error response if it fails.</returns>
+        </member>
+        <member name="T:StaffManagement.API.Controllers.DepartmentsController">
+            <summary>
+            The API controller for managing departments.
+            </summary>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.DepartmentsController.GetAll(StaffManagement.Application.RequestParameters.PagingParams)">
+            <summary>
+            Retrieves a paginated list of all departments.
+            </summary>
+            <param name="pagingParams">The pagination parameters, including page number and page size.</param>
+            <returns>A paginated list of departments with a status code of 200 (OK).</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.DepartmentsController.GetById(System.Int32)">
+            <summary>
+            Retrieves a specific department by its ID.
+            </summary>
+            <param name="id">The unique ID of the department.</param>
+            <returns>The department details with a status code of 200 (OK) if found, or 404 (Not Found) if the department does not exist.</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.DepartmentsController.Create(StaffManagement.Application.Features.Commands.Department.CreateDepartment.CreateDepartmentCommandRequest)">
+            <summary>
+            Creates a new department.
+            </summary>
+            <param name="request">The department data for creation.</param>
+            <returns>A success response with a status code of 201 (Created) if successful, or an error response if the creation fails.</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.DepartmentsController.Update(System.Int32,StaffManagement.Application.Features.Commands.Department.UpdateDepartment.UpdateDepartmentCommandRequest)">
+            <summary>
+            Updates an existing department.
+            </summary>
+            <param name="id">The unique ID of the department to update.</param>
+            <param name="request">The updated department data.</param>
+            <returns>A success response with a status code of 204 (No Content) if the update is successful, 
+            or 400 (Bad Request) if the provided ID does not match the request ID, or 404 (Not Found) if the department does not exist.</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.DepartmentsController.Delete(StaffManagement.Application.Features.Commands.Department.DeleteDepartment.DeleteDepartmentCommandRequest)">
+            <summary>
+            Deletes an existing department.
+            </summary>
+            <param name="request">The department deletion request, containing the department ID to be deleted.</param>
+            <returns>A success response with a status code of 204 (No Content) if the deletion is successful, or an error response if it fails.</returns>
+        </member>
+        <member name="T:StaffManagement.API.Controllers.EmployeesController">
+            <summary>
+            The API controller for managing employees.
+            </summary>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.EmployeesController.GetAll(StaffManagement.Application.RequestParameters.PagingParams,StaffManagement.Application.RequestParameters.EmployeeFilterParams)">
+            <summary>
+            Retrieves a paginated and filtered list of employees.
+            </summary>
+            <param name="pagingParams">The pagination parameters, including page number and page size.</param>
+            <param name="filterParams">The filter parameters for employee search (e.g., name, surname, department).</param>
+            <returns>A paginated and filtered list of employees with a status code of 200 (OK).</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.EmployeesController.GetById(System.Int32)">
+            <summary>
+            Retrieves a specific employee by their ID.
+            </summary>
+            <param name="id">The unique ID of the employee.</param>
+            <returns>The employee details with a status code of 200 (OK) if found, or 404 (Not Found) if the employee does not exist.</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.EmployeesController.Create(StaffManagement.Application.Features.Commands.Employee.CreateEmployee.CreateEmployeeCommandRequest)">
+            <summary>
+            Creates a new employee.
+            </summary>
+            <param name="request">The employee data for creation.</param>
+            <returns>A success response with a status code of 201 (Created) if successful, or an error response if the creation fails.</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.EmployeesController.Update(System.Int32,StaffManagement.Application.Features.Commands.Employee.UpdateEmployee.UpdateEmployeeCommandRequest)">
+            <summary>
+            Updates an existing employee.
+            </summary>
+            <param name="id">The unique ID of the employee to update.</param>
+            <param name="request">The updated employee data.</param>
+            <returns>A success response with a status code of 204 (No Content) if the update is successful, 
+            or 400 (Bad Request) if the provided ID does not match the request ID, or 404 (Not Found) if the employee does not exist.</returns>
+        </member>
+        <member name="M:StaffManagement.API.Controllers.EmployeesController.Delete(StaffManagement.Application.Features.Commands.Employee.DeleteEmployee.DeleteEmployeeCommandRequest)">
+            <summary>
+            Deletes an existing employee.
+            </summary>
+            <param name="request">The employee deletion request, containing the employee ID to be deleted.</param>
+            <returns>A success response with a status code of 204 (No Content) if the deletion is successful, or an error response if it fails.</returns>
+        </member>
+    </members>
+</doc>

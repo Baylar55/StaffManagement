@@ -1,0 +1,15 @@
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\bin\Debug\net6.0\StaffManagement.Application.deps.json
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\bin\Debug\net6.0\StaffManagement.Application.dll
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\bin\Debug\net6.0\StaffManagement.Application.pdb
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\bin\Debug\net6.0\StaffManagement.Domain.dll
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\bin\Debug\net6.0\StaffManagement.Domain.pdb
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\obj\Debug\net6.0\StaffManagement.Application.csproj.AssemblyReference.cache
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\obj\Debug\net6.0\StaffManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\obj\Debug\net6.0\StaffManagement.Application.AssemblyInfoInputs.cache
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\obj\Debug\net6.0\StaffManagement.Application.AssemblyInfo.cs
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\obj\Debug\net6.0\StaffManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\obj\Debug\net6.0\StaffMan.A3D8238D.Up2Date
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\obj\Debug\net6.0\StaffManagement.Application.dll
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\obj\Debug\net6.0\refint\StaffManagement.Application.dll
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\obj\Debug\net6.0\StaffManagement.Application.pdb
+C:\Users\Baylar\source\repos\StaffManagement\src\Core\StaffManagement.Application\obj\Debug\net6.0\ref\StaffManagement.Application.dll
